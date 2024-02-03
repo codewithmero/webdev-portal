@@ -7,7 +7,31 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script async src="./index.js"></script>
 </head>
-<body>
-    <h1>A web developer portal using Tailwind CSS.</h1>
+<body class="bg-[#541554]">
+    <!-- NAVBAR STARTS HERE -->
+    <nav class="h-auto w-full py-5">
+        <div class="flex justify-between px-10 items-center">
+            <div class="flex justify-between w-[auto] items-center">
+                <h2 class="w-[10%] text-white text-[1.4rem]">Slack</h2>
+                <ul class="w-[90%] flex justify-start pl-10">
+                    <li class="mr-10 font-medium text-white">Features</li>
+                    <li class="mr-10 font-medium text-white">Solutions</li>
+                    <li class="mr-10 font-medium text-white">Enterprise</li>
+                    <li class="mr-10 font-medium text-white">Resources</li>
+                    <li class="mr-10 font-medium text-white">Pricing</li>
+                </ul>
+            </div>
+            <div class="flex justify-between w-[auto] px-5">
+                <div class="w-[auto] flex items-center">
+                    <p class="font-medium text-white">Search</p>
+                    <p class="ml-5 font-medium text-white">Sign in</p>
+                </div>
+                <div class="w-[auto] text-end flex items-center ml-8">
+                    <a class="px-6 py-3 border-2 border-white rounded block text-white font-medium" href="#">Talk To Sales</a>
+                    <a class="px-6 py-3 border-2 border-white rounded block text-white font-medium mx-3" href="#">Try For Free</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
